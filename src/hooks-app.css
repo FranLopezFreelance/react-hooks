@@ -1,0 +1,20 @@
+body {
+  padding: 70px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+.spinner {
+  margin: 10px;
+}
+
+.layout {
+  display: flex;
+}
+
+pre {
+  text-align: left;
+}
