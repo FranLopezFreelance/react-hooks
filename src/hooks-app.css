@@ -18,3 +18,23 @@ button {
 pre {
   text-align: left;
 }
+
+.done {
+  text-decoration: line-through;
+}
+
+form {
+  display: flex;
+}
+
+p {
+  margin: 0px;
+}
+
+.add {
+  margin-top: 0px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
