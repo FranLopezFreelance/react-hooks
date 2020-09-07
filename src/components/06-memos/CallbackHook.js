@@ -1,8 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { IncrementButton } from './IncrementButton';
 
-import '../../hooks-app.css';
-
 export const CallbackHook = () => {
 
   const [counter, setCounter] = useState(0);

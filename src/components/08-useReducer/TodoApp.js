@@ -2,7 +2,6 @@ import React, { useReducer, useEffect } from 'react';
 import { todoReducer } from './todoReducer';
 import { TodoList } from './TodoList';
 import { AddTodo } from './AddTodo';
-import '../../hooks-app.css';
 
 const init = () => {
   return JSON.parse(localStorage.getItem('todos')) || [];
